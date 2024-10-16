@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    height: 500px;
+}
+
+.button{ 
+    background-color: red;
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+}
